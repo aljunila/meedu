@@ -1,0 +1,217 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #ffffff;
+  background: url(../img/bgam.jpg) no-repeat ;
+  background-size: cover;
+}
+
+body.bg-pedagogy {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #ffffff;
+  background: url(../img/login-psy.jpg) no-repeat ;
+  background-size: cover;
+}
+
+
+
+
+.header-login{
+  color: #39c18f;
+  padding: 16px;
+}
+.icon-input{
+  width: 40px;
+  height: 40px;
+  font-size:24px;
+  color: #555555;
+  position: absolute;
+
+}
+.input-login{
+  width: 272px;
+  margin-left: 28px;
+  padding-left: 16px;
+  height: 40px;
+  border: none;
+  border-bottom: solid 2px #c9c9c9;
+  outline: none;
+}
+
+.input-login:focus,
+.input-login.focus {
+  border-bottom: solid 2px #39c18f;
+}
+
+
+
+.input-login-rakoon{
+  width: 272px;
+  margin-left: 28px;
+  padding-left: 16px;
+  height: 40px;
+  border: none;
+  background: transparent;
+  border-bottom: solid 2px #ad262d;
+  outline: none;
+}
+
+.input-login-rakoon:focus,
+.input-login-rakoon.focus {
+  border-bottom: solid 2px #ad262d;
+}
+
+
+.footer-info{
+  padding: 10px;
+}
+
+.footer-content{
+  margin-top: 100px;
+  border-bottom: solid 1px #39c18f;
+}
+
+a.footer-link{
+  font-size: 16px;
+  color: #777777;
+  margin: 6px;
+  padding: 6px;
+  font-weight: 500;
+}
+
+.forgot-content{
+  padding-top:  10px;
+}
+
+
+.input-new-style{
+  margin-bottom: 16px;
+}
+
+.btn-sinau{
+    margin-top: 10px;
+    background: #39c18f;
+    color:  #fff !important;
+    border-radius: 4px;
+}
+.btn-register{
+    background: #f9c81e;
+    font-size: 10px;
+    padding: 10px;
+}
+
+.forgot-password{
+  padding: 10px;
+  color: #fff;
+  /*border-bottom: 1px solid #345e8a;*/
+  margin-bottom: 16px;
+}
+ .form-background{
+    /*background-color: #23405d;*/
+    /*padding:15px;*/
+    border-radius: 0px;
+     /*box-shadow: 5px 5px 2px rgba(0, 0, 0, .2);*/
+  }
+.form-signin {
+  max-width: 380px;
+  padding: 15px;
+  margin: 0 auto;
+} 
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.remark-brand{
+    color: #555555;
+}
+
+.brand-title{
+  color: #555555;
+  font-weight: 500;
+  font-size: 50px;
+}
+.welcome{
+  color: #555555;
+  font-size: 25px;
+}
+.tagline{
+  color: #555555;
+  font-size: 16px;
+}
+
+.prologi-brand{
+  margin-top: 30px;
+}
+
+.img-prologi{
+  height: 150px;
+  width: 150px;
+}
+
+.img-brander{
+  height: 72px;
+  width: 72px;
+}
+
+.login-container{
+  margin-top: 10px;
+}
+
+h1{
+  font-size: 45px;
+}
+h3{
+  font-size: 36px;
+}
+
+@media screen and (max-width: 600px) and (min-width: 320px) {
+  .input-login{
+	  width: 235px;
+	  margin-left: 28px;
+	  padding-left: 16px;
+	  height: 40px;
+	}
+	.icon-input{
+	  width: 40px;
+	  height: 40px;
+	  font-size:24px;
+	  color: #555555;
+	  position: absolute;
+
+	}
+	.form-background{
+		margin-top: 30px;
+	    /*background-color: #23405d;*/
+	    padding:15px;
+	    border-radius: 0px;
+	     /*box-shadow: 5px 5px 2px rgba(0, 0, 0, .2);*/
+	}
+	
+}
